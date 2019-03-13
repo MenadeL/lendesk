@@ -1,0 +1,33 @@
+body {
+    background: url(../images/system-bg.png) 0 0 no-repeat;
+    padding: 30px 10px 10px;
+}
+
+#content-wrapper {
+    margin: 0 auto;
+    max-width: 750px;
+}
+
+@media(min-width: 768px) {
+    #content-wrapper {
+        min-width: 750px;
+    }
+}
+
+#logo {
+    background: url(../images/lendesk-logo.png) 0 0 no-repeat;
+    width: 155px;
+    height: 30px;
+    display: inline-block;
+    background-size: cover;
+    text-indent: -9999em;
+    margin-bottom: 10px;
+}
+
+.custom-panel-1 {
+    padding: 10px 15px;
+    background-color: #fff;
+    box-shadow: 1px 3px 18px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 10px 0;
+}
